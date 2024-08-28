@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "CollegeTracker",
+    "scheme": "collegetracker",
+    "slug": "CollegeTracker",
+    "description": "This is an app to help prospective students with admission into higher education institutions.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-small.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.company.worm"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.company.worm"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ca83f428-485b-414a-b52d-64d7fba7ad84"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ca83f428-485b-414a-b52d-64d7fba7ad84"
+    }
+  }
+}
