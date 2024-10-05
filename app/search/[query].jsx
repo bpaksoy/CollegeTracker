@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useLocalSearchParams, router } from "expo-router";
 import axios from "axios";
-const apiKey = "9xLp3zg2RppFIwrtqazNg3XVL5hdMfjWn9U0Hd3I";
+const apiKey = "";
 import { SearchCard, EmptyState } from "../../components";
 import { StatusBar } from "expo-status-bar";
 import { images } from "../../constants";
