@@ -15,7 +15,7 @@ const Search = () => {
     const [searchResult, setSearchResult] = useState([]);
     const [isLoading, setLoading] = useState(false);
     const [searchError, setSearchError] = useState(null);
-    const [thumbnail, setThumbnail] = useState("https://cloud.appwrite.io/v1/storage/buckets/661f946d10ce253c0dc7/files/66226ed4b118260e7338/view?project=661ed05852385ff89232&mode=admin");
+    const [thumbnail, setThumbnail] = useState("");
 
     const handleSearch = async () => {
         setLoading(true)
