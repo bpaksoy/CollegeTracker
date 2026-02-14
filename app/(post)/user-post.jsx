@@ -54,10 +54,7 @@ const Post = () => {
                     }} placeholder="title" />
                     <FormField name="body" label="Body" value={form.body} handleChangeText={(e) => setForm({ ...form, body: e })} placeholder="your post here..." height="h-56" multiline={true} numberOfLines={9} textAlignVertical="top" otherStyles="mt-1" />
                     <View className="mt-3">
-                        <CustomButton title="Submit" handlePress={() => {
-                            submitPost()
-                            router.push("/trending")
-                        }} />
+                        <CustomButton title="Submit" handlePress={submitPost} />
                     </View>
                 </View>
             </ScrollView>

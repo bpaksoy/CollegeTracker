@@ -35,7 +35,12 @@ const Profile = () => {
     const onRefresh = async () => {
         setRefreshing(true);
         await refetch();
-        form.thumbnail = null;
+        setForm({
+            title: "",
+            video: null,
+            thumbnail: null,
+            prompt: "",
+        });
         setRefreshing(false);
     };
 
